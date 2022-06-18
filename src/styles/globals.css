@@ -2,4 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.root,
+#root,
+#docs-root {
+  --primary-color: green;
+  --secondary-color: blue;
+  --primaryBlack-color: '#000000'
+}
+body{
+  /* background-color:var(--primaryBlack-color); */
+  background-color:black
+}
